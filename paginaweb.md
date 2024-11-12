@@ -6,7 +6,7 @@
 
 | Asignatura          | Descripción                     | Profesor/a   |
 |---------------------|---------------------------------|--------------|
-| Progrmación         | Aprender a programar en Java    | Maria Ana    |
+| Programación        | Aprender a programar en Java    | Maria Ana    |
 | Base de Datos       | Modelos Entidad/Relación        | Lola         |
 | Lenguaje de marcas  | Páginas web con html            | Belén        |
 
