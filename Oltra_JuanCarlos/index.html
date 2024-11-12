@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oferta formativa</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Web IES Camp</h1>
+            <nav>
+                <ul>
+                    <li><a href="#GM">Requisitos acceso grado medio</a></li>
+                    <li><a href="#GS">Requisitos acceso grado superior</a></li>
+                    <li><a href="#MI">Más Info</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+                <h2><font color="green">Oferta formativa</font></h2>
+
+                <section>
+                    <h3><font color="purple">Formación Profesional</font></h3>
+                    <img src="images/estudiante.jpeg" alt="Persona estudiando">
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis laoreet donec viverra penatibus sollicitudin imperdiet auctor. Ultrices consequat donec phasellus feugiat rutrum dictumst.
+                      Duis ante etiam aliquam fames commodo sagittis tincidunt nisi ornare. Lectus rhoncus nunc facilisis feugiat sagittis sagittis; blandit penatibus? Mus imperdiet ipsum luctus consectetur aptent sit.
+                      Congue vulputate luctus nascetur lobortis placerat auctor habitasse molestie. Mauris congue porttitor condimentum consequat netus curabitur vel urna habitant.</p>
+                    <hr>
+                    <p>Tempus potenti sed himenaeos; libero accumsan mauris gravida. Pretium lobortis hac nulla suscipit ullamcorper nostra penatibus commodo. Varius dapibus habitant eros habitasse inceptos magna natoque consectetur.
+                        Interdum potenti semper nascetur nisi inceptos eleifend. Torquent eleifend habitant quam; nostra vivamus fermentum. Sodales orci volutpat eu ac imperdiet tempor nibh. Vitae per nec ut maecenas adipiscing odio.</p>
+
+                    <table border="1" cellspacing="0" cellpadding="20">
+                        <thead>
+                            <tr>
+                                <th colspan="3"><strong>Plazas disponibles</strong></th>
+                            </tr>
+                        </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="1">Grado Medio</td>
+                                    <td>SMR</td>
+                                    <td>25</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="3">Grado Superior</td>
+                                    <td>ASIR</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>DAW</td>
+                                    <td>36</td>
+                                </tr>
+                                <tr>
+                                    <td>DAM</td>
+                                    <td>25</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </section>
+
+                <br><br>
+                <section id="GM">
+                    <h3><font color="purple">Requisitos acceso grado medio</font></h3>
+                    <p> Pueden acceder al ciclo sin prueba de acceso los:</p>
+                    <ol type="A">
+                        <li>Graduados en Educación Secundaria Obligatoria.</li>
+                        <li>Titulados en Formación Profesional Básica.</li>
+                        <li>Titulados de Formación Profesional de primer grado (Técnico Auxiliar).</li>
+                        <li>Titulados de Formación Profesional de grado medio (Técnico).</li>
+                        <li>Tener 2º de BUP aprobado.</li>
+                        <li>Haber superado el segundo curso del primer ciclo experimental de reforma de las enseñanzas medias.</li>
+                        <li>Haber superado, de las enseñanzas de Artes Plásticas y Oficios Artísticos, el tercer curso del Plan de 1963 o segundo de comunes experimental.</li>
+                        <li>Otras titulaciones equivalentes a efectos académicos.</li>
+                    </ol>
+                    <p>Estos requisitos son generales para todos los ciclos de Grado Medio. Mas información <a href="https://ceice.gva.es/es/web/formacion-profesional/oferta1">orientación grado medio</a>.</p>
+                </section>
+                <br><br>
+                <section id="GS">
+                    <h3><font color="purple">Requisitos acceso grado superior</font></h3>
+                    <p> Pueden acceder al ciclo sin prueba de aquellos estudiantes que cumplan los siguientes requisitos (en orden de prioridad):</p>
+                    <ol type="I">
+                        <li>Bachillerato LOE modalidad BCT o Título de Técnico de FP.</li>
+                        <li>Bachillerato LOGSE modalidades BCNS o BT.</li>
+                        <li>Bachillerato Experimental modalidades BCN o BTI.</li>
+                        <li>Haber superado las opciones A, B de COU.</li>
+                        <li>Estar en posesión del título de Bachillerato LOE/LOGSE.</li>
+                        <li>Haber superado el segundo curso de cualquier otra modalidad de Bachillerato Experimental.</li>
+                        <li>Opciones C, D de Cou o Preu superados.</li>
+                        <li>Estar en posesión del título de Formación Profesional de Segundo Grado u otras titulaciones equivalentes a efectos académicos.</li>
+                        <li>Tener una titulación universitaria a la que se accedió sin cumplir ninguno de los requisitos anteriores.</li>
+                    </ol>
+                    <p>Estos requisitos son generales para todos los ciclos de Grado Superior. Mas información <a href="https://ceice.gva.es/es/web/formacion-profesional/oferta1">orientación grado superior</a>.</p>
+                </section>
+
+                <br><br>
+                <section id="MI">
+                    <h3>Más Info</h3>
+                    <form method="post">
+                        <fieldset>
+                            <legend>Información de Contacto</legend>
+                            <label for="Nombre">Nombre:</label>
+                            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" max="100" required>
+                            <br><br>
+                            <label for="Apellidos">Apellidos:</label>
+                            <input type="text" id="Apellidos" name="Apellidos" placeholder="Apellidos" max="100" required>
+                            <br><br>
+                            <label for="Edad">Edad:</label>
+                            <input type="number" id="Edad" name="Edad" placeholder="Edad" min="1" max="100" required>
+                            <br><br>
+                            <label for="Correo">Correo electrónico:</label>
+                            <input type="email" id="Correo" name="Correo" placeholder="Email" max="100" required>
+                            <br><br>
+                            <label for="Contraseña">Contraseña:</label>
+                            <input type="password" id="Contraseña" name="Contraseña" placeholder="Mín. 6 / debe comenzar por: 1numero+1letra+#" minlength="6" pattern="^[0-9][a-z]#.{3,}$" size="50">
+                        </fieldset>
+
+                        <br>
+                        <fieldset>
+                            <legend>Formación</legend>
+                            <p>Nivel de estudios:</p>
+                            <label><input type="radio" name="Nivel_estudios" value="Sin_estudios"> Sin estudios</label><br>
+                            <label><input type="radio" name="Nivel_estudios" value="Bachillerato"> Bachillerato</label><br>
+                            <label><input type="radio" name="Nivel_estudios" value="FP" checked> Formación Profesional</label><br>
+                            <label><input type="radio" name="Nivel_estudios" value="Otros"> Otros</label>
+                        </fieldset>
+
+                        <br>
+                        <fieldset>
+                            <legend>Información de estudios</legend>
+                            <label for="estudios">Deseo recibir información de:</label>
+                            <br>
+                            <select id="estudios" name="estudios">
+                                <option value="fp_basica">FP Básica</option>
+                                <option value="grado_medio">Grado Medio</option>
+                                <option value="grado_superior" selected>Grado Superior</option>
+                            </select>
+                            <br><br>
+                            <label for="Mensaje">Escribe tu mensaje:</label><br>
+                            <textarea id="Mensaje" name="Mensaje" cols="40" rows="8"></textarea>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Elección de horario</legend>
+                            <p>Prefiero horario:</p>
+                            <label><input type="radio" name="horario" value="mañana" checked> Mañana</label><br>
+                            <label><input type="radio" name="horario" value="tarde"> Tarde</label><br>
+                            <label><input type="radio" name="horario" value="indistinto"> Indistinto</label><br>
+                        </fieldset>
+
+                        <br><br>
+                        <fieldset>
+                            <legend>Modalidad</legend>
+                            <p>Indica la modalidad en la que podrías realizar tus estudios (puedes elegir ambas):</p>
+                            <input type="checkbox" id="presencial" name="modalidad" value="presencial" checked>
+                            <label for="presencial">Presencial</label>
+                            <br>
+                            <input type="checkbox" id="semipresencial" name="modalidad" value="semipresencial" checked>
+                            <label for="semipresencial">Semipresencial</label>
+                            <br><br>
+                            <button type="reset">Borrar Datos</button>
+                            <button type="submit">Enviar Datos</button>
+                        </fieldset>
+                    </form>
+                    <br><br>
+                </section>
+        </main>
+
+        <footer>
+            <table border="1" width="500" height="100" cellspacing="0" cellpadding="10">
+                <tbody>
+                        
+                    <tr>
+                        <td align="center">1</td>
+                        <td align="center">2</td>
+                        <td rowspan="3" align="center">3</td>
+                        <td align="center">4</td>
+                    </tr>
+                    <tr>
+                        <td align="center">5</td>
+                        <td rowspan="3" align="center">6</td>
+                        <td rowspan="2" align="center">8</td>
+                    </tr>
+                    <tr>
+                        <td align="center">9</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" align="center">11</td>
+                        <td align="center">7</td>
+                        <td align="center">10</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center">12</td>
+                    </tr>
+                    <tr>
+                        <td align="center">13</td>
+                        <td colspan="2" align="center">14</td>
+                    </tr>
+                        
+                </tbody>
+            </table>
+        </footer>
+    </body>
+    
+</html>
